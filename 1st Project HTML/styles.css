@@ -1,0 +1,22 @@
+
+
+
+h1 { color: Red; text-align: center; }
+p  { color: blue; text-align: center;}
+h2 { color: Red; text-align: left; margin-left:100px;}
+
+.Notes {
+        margin-left: 100px;
+        margin-right: auto;
+        height: auto;
+        width: auto;
+}
+.Notes-point {
+        float: left;
+        margin-left: auto;
+}
+.Notes-diff {
+        float: right;
+        margin-right: 200px;
+        color: Blue;
+}
