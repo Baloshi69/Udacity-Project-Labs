@@ -2,7 +2,9 @@ import turtle
 
 rainbow_color = ["red", "orange", "yellow", "green", "blue", "purple"]
 
-rainbow_iteration = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19,]
+# After Learning range() function i used it in line 6. to save all Typing i done in line 7
+rang = range(19)
+# rainbow_iteration = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19,]
 
 # Write whatever code you want here!
 # Import and Variable of RAINBOW
@@ -15,7 +17,7 @@ rainbow.left(70)
 
 # Rainbow CODE
 for color in rainbow_color:
-    for iteration in rainbow_iteration:
+    for iteration in rang:
         rainbow.right(7)
         rainbow.forward(20)
     rainbow.penup()
