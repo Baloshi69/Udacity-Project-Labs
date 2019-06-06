@@ -19,7 +19,7 @@ var eatsAnimals = true;
 var category = ((eatsPlants && eatsAnimals) ? "omnivore" :
                 (eatsPlants ? "herbivore" :
                 (eatsAnimals ? "carnivore":
-                "undefined")));
+                undefined)));
 
 
 
