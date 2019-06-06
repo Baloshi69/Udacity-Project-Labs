@@ -36,7 +36,7 @@ if (((shirtWidth >= 18) && (shirtWidth < 20)) &&
     console.log("L");
 
 } else if (((shirtWidth >= 24) && (shirtWidth < 26)) &&
-            ((shirtLength >= 31) && (shirtLenght < 33)) &&
+            ((shirtLength >= 31) && (shirtLength < 33)) &&
             ((shirtSleeve >= 8.88 ) && (shirtSleeve < 9.63))) {
 
     console.log("XL");
